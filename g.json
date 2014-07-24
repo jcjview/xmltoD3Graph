@@ -1,0 +1,18 @@
+{
+"items": [
+                {
+                "nodes":[
+							{"id": "0","atom": "身份证","size": "1"},
+							{"id": "1","atom": "护照","size": "3"},
+							{"id": "2","atom": "护照","size": "2"}
+				        ]},
+		                    
+				{
+				"links":[
+						{"id": "0","source": "0","target":"1","weight": "3"},
+						{"id": "1","source": "1","target":"2","weight": "1"},
+						{"id": "2","source": "2","target":"0","weight": "2"}
+					   ]
+				}
+		]
+}
